@@ -1,6 +1,6 @@
 /**
  * @author Alexdkk (Alexandre Martins de Freitas), 23/10/1994, PT
- * Alternative to crc32 
+ * Alternative to crc32 with less collisions
  * Performance is 60% faster with magic key and even faster with avalanche
 **/
 

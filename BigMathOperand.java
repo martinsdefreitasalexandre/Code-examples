@@ -1,9 +1,11 @@
 import java.math.BigInteger;
 import java.util.Arrays;
 
-
 /**
- * @author Alexdkk (Alexandre Martins de Freitas)
+ * @author Alexdkk (Alexandre Martins de Freitas), 23/10/1994, PT
+ * Alternative to biginteger using bytes as digit positions instead of String
+ * Performance faster or slower depending in amount of calls.
+ * Created for test reasons
 **/
 public class BigMathOperand {
 	

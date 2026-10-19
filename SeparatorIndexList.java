@@ -9,6 +9,8 @@ import java.util.Arrays;
  * which makes a search a max of 100+5000 instead of up to 500000
  * Also saves minimum value available to speed up even further
  * Data class to be replaced by the index class such as a Player/Non Player Character Class for instance
+ * Can use invoke to use with any Class setting up in constructor the get and set index methods
+ * if want full compatiblity with any Data Class, for now kept it simple, or use Class extends Data
 **/
 public class SeparatorIndexList {
 

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author Alexdkk (Alexandre Martins de Freitas), 23/10/1994, PT
  * 
- * The following algorithm increases the find free index by 95%+ if used as 5000 separatorCount for 500000 valuesCount for instance
+ * The following algorithm increases the find free index speed by 98%+ if used as 5000 separatorCount for 500000 valuesCount for instance
  * which makes a search a max of 100+5000 instead of up to 500000
  * Also saves minimum value available to speed up even further
  * Data class to be replaced by the index class such as a Player/Non Player Character Class for instance

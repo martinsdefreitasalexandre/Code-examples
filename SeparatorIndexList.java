@@ -8,7 +8,7 @@ import java.util.Arrays;
  * The following algorithm increases the find free index by 95%+ if used as 5000 separatorCount for 500000 valuesCount for instance
  * which makes a search a max of 100+5000 instead of up to 500000
  * Also saves minimum value available to speed up even further
- Data class to be replaced by the index class such as a Player/Non Player Character Class for instance
+ * Data class to be replaced by the index class such as a Player/Non Player Character Class for instance
 **/
 public class SeparatorIndexList {
 
@@ -33,6 +33,7 @@ public class SeparatorIndexList {
 	
 	public SeparatorIndexList(int valuesCount, int separatorCount) {
 		this.separatorCount = separatorCount;
+		values = new Data[valuesCount];
 		separator = new int[valuesCount / separatorCount];
 		Arrays.fill(separator, separatorCount);
 	}
